@@ -1,0 +1,8 @@
+# TemplatePlugin Configuration
+# See: https://docs.papermc.io/paper/dev/plugin-configurations
+
+# Debug mode - enables extra logging
+debug: false
+
+# Locale for messages (e.g., en, zh)
+locale: en

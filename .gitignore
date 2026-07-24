@@ -1,0 +1,24 @@
+# Gradle
+.gradle/
+build/
+bin/
+!gradle/wrapper/gradle-wrapper.jar
+
+# IDE
+.idea/
+*.iml
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Test server
+testserver/
+
+# Java
+*.class
+*.jar
+!gradle/wrapper/gradle-wrapper.jar

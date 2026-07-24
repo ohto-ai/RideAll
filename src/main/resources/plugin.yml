@@ -1,0 +1,21 @@
+name: ${name}
+version: ${version}
+main: com.example.template.TemplatePlugin
+api-version: "1.21"
+description: ${description}
+author: OhtoAi
+prefix: TemplatePlugin
+
+commands:
+  template:
+    description: Template plugin base command
+    aliases: [tpl]
+    usage: /<command> <subcommand>
+
+permissions:
+  template.use:
+    description: Allows using the template plugin
+    default: true
+  template.admin:
+    description: Allows admin commands
+    default: op
