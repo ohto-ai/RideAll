@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="200" viewBox="0 0 800 200" role="img" aria-label="RideAll — Paper plugin">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#221b0b"/>
+      <stop offset="1" stop-color="#131313"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffe08a"/>
+      <stop offset="1" stop-color="#c9930a"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="200" rx="16" fill="url(#bg)"/>
+  <rect x="6" y="6" width="788" height="188" rx="12" fill="none" stroke="#c9930a" stroke-opacity="0.55" stroke-width="2"/>
+  <text x="60" y="102" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="58" font-weight="700" fill="url(#gold)">RideAll</text>
+  <text x="63" y="148" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="22" fill="#e8e2cf">Ride any entity · Carry mobs on your head — Paper plugin</text>
+  <g stroke="#ffd75e" stroke-width="3" fill="none" opacity="0.9">
+    <circle cx="690" cy="118" r="22"/>
+    <circle cx="690" cy="76" r="16"/>
+    <circle cx="690" cy="44" r="11"/>
+    <line x1="690" y1="96" x2="690" y2="92"/>
+    <line x1="690" y1="65" x2="690" y2="55"/>
+  </g>
+  <text x="745" y="124" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="16" fill="#9b8a5a">/oride</text>
+</svg>

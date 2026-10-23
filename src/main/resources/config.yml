@@ -1,8 +1,6 @@
-# TemplatePlugin Configuration
-# See: https://docs.papermc.io/paper/dev/plugin-configurations
+# 修改搬运物品（add/remove/clear/mode）后，是否自动把列表与模式渲染到物品 lore
+# true = 自动渲染（默认）；false = 只改 NBT，显示用 /oride item render 手动同步
+auto-render: true
 
-# Debug mode - enables extra logging
-debug: false
-
-# Locale for messages (e.g., en, zh)
-locale: en
+# 新物品（/oride item add 创建）与未填写 mode 的物品使用的默认叠放模式：append / chain
+default-mode: append

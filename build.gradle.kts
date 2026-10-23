@@ -6,7 +6,7 @@ plugins {
 
 group = "com.example"
 version = project.findProperty("plugin_version")?.toString() ?: "1.0.0"
-description = "A Paper plugin"
+description = "让任意实体骑乘任意实体"
 
 java {
     toolchain.languageVersion = JavaLanguageVersion.of(21)
@@ -18,7 +18,7 @@ repositories {
 }
 
 dependencies {
-    paperweight.paperDevBundle("1.21.4-R0.1-SNAPSHOT")
+    paperweight.paperDevBundle("1.20.6-R0.1-SNAPSHOT")
     // Add compileOnly dependencies here, e.g.:
     // compileOnly("com.github.MilkBowl:VaultAPI:1.7") { isTransitive = false }
 }
@@ -44,5 +44,5 @@ tasks.processResources {
 }
 
 tasks.assemble {
-    dependsOn(shadowJar)
+    dependsOn(tasks.shadowJar)
 }
